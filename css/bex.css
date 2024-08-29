@@ -1,0 +1,106 @@
+
+.hero {
+    background-image: url('../assets/torii-gate-japanese-3840x2160-15297.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 1.25em;
+    margin: 15px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff5722; /* Vibrant color for the button */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+.cta-button.secondary {
+    background-color: #00796b;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6CF;
+    color: #333;
+    
+}
+
+
+header {
+    background-color: #137C8B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+
+
